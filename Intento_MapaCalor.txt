@@ -1,0 +1,27 @@
+                                                  # 4.6 Correlation Matrix
+# IMPORT LIBRARY
+from sklearn.preprocessing import LabelEncoder
+
+# Encoding qualitative variables
+le = LabelEncoder()
+df['ProductID'] = le.fit_transform(df['ProductID'])
+df['Categoria'] = le.fit_transform(df['Categoria'])
+df['Marca'] = le.fit_transform(df['Marca'])
+df['Genero'] = le.fit_transform(df['Genero'])
+df['Nivel_satisfaccion'] = le.fit_transform(df['Nivel_satisfaccion'])
+df['Intencion_Compra'] = le.fit_transform(df['Intencion_Compra'])
+
+# Applicating correlation in dataset
+df_corr = df.corr()                      # Level of variables association
+
+
+
+
+
+# HEATMAP:
+# Graph Heatmap
+df_corr = df.corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(df_corr, annot=True, cmap='coolwarm')   # Asocia el heatmap a los ejes
+plt.title('Correlation Matrix')                     # Asigna el título a los ejes
+plt.show()
