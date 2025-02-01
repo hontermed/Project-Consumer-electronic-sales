@@ -4,11 +4,11 @@
 This is my first project developed in notebook of Python (Google Colab).
 
 # CONSUMER ELECTRONIC SALES:
-I present a detailed stathistical analysis on a list of electronic products offered to customers based on their age, gender, purchase frequency, satisfaction level and purchase intent presented.
+I present a detailed statistical analysis on a list of electronic products offered to customers based on their age, gender, purchase frequency, satisfaction level and purchase intent presented.
  
 ## OBJECTIVES
 - **Clean and Transform data**: Detect values that need to consistency (dupplicated and missing values).
-- **Perform exploratory data analysis**: Use statisticians technical to understand data for discover patterns (Principal stathistics, frequency tables, histograms and others). 
+- **Perform exploratory data analysis**: Use statisticians technical to understand data for discover patterns (Principal statistics, frequency tables, histograms and others). 
 - **Identify relationship between variables**: Build a correlation matrix and heat map for visualization of the relationship between key variables as age, price, gender, satisfaction level and purchase frequency.
   
 ## KEY RESULTS
